@@ -5,7 +5,7 @@ export default function Home() {
     <section className="flex min-h-screen flex-col items-center justify-between p-24">
      
         <div className="fixed bottom-0 left-0 flex flex-col h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-        <h1 className="mb-8 text-2xl font-medium tracking-tighter">hey, I'm tanmay 👋</h1>
+        <h1 className="mb-8 text-2xl font-medium tracking-tighter">hey, I&apos;m tanmay 👋</h1>
       <p className="prose prose-neutral dark:prose-invert">
         I am a Software Engineer who love android and devops
       </p>
