@@ -311,9 +311,10 @@ footer ul {
         margin-right: auto;
 
     }
+    
 }
 
-@media(min-width:550px){
+@media(min-width:800px){
     article{
         display: grid;
         grid-template-columns: 1fr 1fr;
