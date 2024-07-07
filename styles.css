@@ -242,10 +242,10 @@ nav [class*="fa-"]:hover {
 }
 
 .blackbox {
-    background-color: var(--dkblue);
+    background-color: var(--aqua);
     padding: 1rem;
     border-radius: 12px;
-color: var(--white);
+color: var(--black);
 
 
 }
@@ -256,6 +256,7 @@ color: var(--white);
 
 .blackbox a {
     text-decoration: none;
+
 }
 .highlights {
     font-weight: bold;
