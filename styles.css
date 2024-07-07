@@ -47,6 +47,17 @@ a:hover {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
+/* background colors*/
+.section-plum {
+    background-color: var(--dkblue);
+}
+.section-dkblue {
+    background-color: var(--black);
+}
 
 .gradient {
     height: 2px;
@@ -126,9 +137,7 @@ a:hover {
     font-weight: normal;
 }
 
-.section-plum {
-    background-color: var(--dkblue);
-}
+
 
 #contact {
     width: 400;
@@ -214,8 +223,61 @@ nav [class*="fa-"]:hover {
     color: var(--magenta);
 }
 
+/* projects section*/
+#projects {
+    padding: 4rem 1rem;
+}
+#projects h2 {
+    font-size: 2.5 rem;
+    margin-bottom: calc(2.5 rem* 1.5);
+}
+#projects h3 {
+    color: var(--aqua);
+    padding: 1rem 0rem;
+}
+#projects h4 {
+    font-family: var(--mono);
+    font-size: 1rem;
+    margin: 0.5 rem 0 0 0;
+}
+
+.blackbox {
+    background-color: var(--dkblue);
+    padding: 1rem;
+    border-radius: 12px;
+color: var(--white);
 
 
+}
+.blackbox p{
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+.blackbox a {
+    text-decoration: none;
+}
+.highlights {
+    font-weight: bold;
+}
+
+#projects ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+#projects img {
+margin: 2rem 0 4rem 0;
+border-left:1px solid var(--aqua) ;
+border-top:1px solid var(--aqua) ;
+border-radius: 28px;
+padding:1rem ;
+}
 
 footer {
     text-align: center;
@@ -251,6 +313,29 @@ footer ul {
     }
 }
 
+@media(min-width:550px){
+    article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap:1rem;
+        align-items: center;
+    }
+    #projects img{
+        grid-column: 4/8;
+        grid-row: 1/2;
+    }
+    .text {
+        grid-column: 6/11;
+        grid-row: 1/2;
+        order:2;
+        text-align: right;
+    }
+    #projects ul {
+        justify-content: flex-end;
+    }
+
+}
+
 @media(max-width: 800px) {
     .hideOnMobile {
         display: none;
@@ -264,5 +349,6 @@ footer ul {
         margin-right: auto;
 
     }
+    
   
 }
