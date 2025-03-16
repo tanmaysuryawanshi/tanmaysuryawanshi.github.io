@@ -310,6 +310,7 @@ footer ul {
 
 
 @media (min-width:850px) {
+  
     nav {
         max-width: 1200px;
         margin: 0 auto;
@@ -349,6 +350,13 @@ footer ul {
 }
 
 @media(max-width: 800px) {
+    #intro {
+        padding: 4rem 1rem 7rem 1rem;
+    }
+    #intro h2 {
+        
+        font-size: 2rem; 
+     }
     .hideOnMobile {
         display: none;
     }
